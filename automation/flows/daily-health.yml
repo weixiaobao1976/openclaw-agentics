@@ -1,0 +1,11 @@
+name: daily-health-check
+schedule: "0 8 * * *"
+steps:
+  - name: check-gateway
+    run: systemctl --user is-active openclaw-gateway.service
+  - name: check-disk
+    run: df -h /
+  - name: check-load
+    run: uptime
+  - name: summary
+    run: echo "健康检查完成"
