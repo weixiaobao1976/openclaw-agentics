@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "skills": {
+    "capability-match": {
+      "version": "1.0.0",
+      "installedAt": 1777369031494
+    },
+    "gstack-openclaw-office-hours": {
+      "version": "1.0.0",
+      "installedAt": 1777819798962
+    },
+    "gstack-openclaw-ceo-review": {
+      "version": "1.0.0",
+      "installedAt": 1777819825817
+    },
+    "gstack-openclaw-investigate": {
+      "version": "1.0.0",
+      "installedAt": 1777819857195
+    },
+    "gstack-openclaw-retro": {
+      "version": "1.0.0",
+      "installedAt": 1777819886065
+    },
+    "cli-anything-hub": {
+      "version": "1.0.1",
+      "installedAt": 1777989382035
+    },
+    "github": {
+      "version": "1.0.0",
+      "installedAt": 1778944895905
+    }
+  }
+}

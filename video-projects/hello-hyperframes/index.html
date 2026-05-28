@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1920, height=1080">
+  <title>Hello HyperFrames</title>
+  <script>window.__hf = { duration: 5, seek: (t) => {} };</script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap');
+    
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    
+    body {
+      width: 1920px;
+      height: 1080px;
+      background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
+      font-family: 'Space Grotesk', sans-serif;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .container {
+      text-align: center;
+      color: white;
+    }
+    
+    h1 {
+      font-size: 120px;
+      font-weight: 700;
+      background: linear-gradient(90deg, #00f5ff, #ff00ff, #00f5ff);
+      background-size: 200% auto;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    
+    .subtitle {
+      font-size: 36px;
+      color: rgba(255,255,255,0.7);
+      margin-top: 20px;
+      letter-spacing: 8px;
+      text-transform: uppercase;
+      opacity: 0;
+    }
+    
+    .accent {
+      position: absolute;
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(0,245,255,0.3) 0%, transparent 70%);
+      filter: blur(40px);
+    }
+    
+    .accent-1 { top: -100px; left: -100px; animation: pulse 3s ease-in-out infinite; }
+    .accent-2 { bottom: -100px; right: -100px; animation: pulse 3s ease-in-out infinite 1.5s; }
+    
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); opacity: 0.5; }
+      50% { transform: scale(1.2); opacity: 0.8; }
+    }
+  </style>
+</head>
+<body>
+  <div data-composition-id="main" data-width="1920" data-height="1080" data-start="0">
+    <div class="accent accent-1"></div>
+    <div class="accent accent-2"></div>
+    
+    <div class="container">
+      <h1>Hello HyperFrames</h1>
+      <p class="subtitle">HTML 直出视频的时代来了</p>
+    </div>
+  </div>
+
+  <script>
+    window.__timelines = window.__timelines || {};
+    
+    const tl = gsap.timeline({ paused: true });
+    
+    // 标题动画 - 进入
+    tl.to('h1', {
+      opacity: 1,
+      y: 0,
+      duration: 1.5,
+      ease: 'power3.out'
+    }, 0);
+    
+    // 标题渐变流动动画
+    tl.to('h1', {
+      backgroundPosition: '200% center',
+      duration: 3,
+      ease: 'linear',
+      repeat: 3
+    }, 1);
+    
+    // 副标题淡入
+    tl.to('.subtitle', {
+      opacity: 1,
+      duration: 1,
+      ease: 'power2.out'
+    }, 2);
+    
+    // 副标题letter动画
+    tl.to('.subtitle', {
+      letterSpacing: '12px',
+      duration: 1,
+      ease: 'power2.out'
+    }, 2.5);
+    
+    window.__timelines["main"] = tl;
+  </script>
+</body>
+</html>
