@@ -1,6 +1,6 @@
 {
   "openrouter_free_models": {
-    "lastCheckMs": 1779985512385,
+    "lastCheckMs": 1781733304345,
     "knownFreeModels": [
       {
         "id": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free",
@@ -9,10 +9,10 @@
         "description": "Venice Uncensored Dolphin Mistral 24B Venice Edition is a fine-tuned variant of Mistral-Small-24B-Instruct-2501, develop"
       },
       {
-        "id": "deepseek/deepseek-v4-flash:free",
-        "name": "DeepSeek: DeepSeek V4 Flash (free)",
-        "context_length": 1048576,
-        "description": "DeepSeek V4 Flash is an efficiency-optimized Mixture-of-Experts model from DeepSeek with 284B total parameters and 13B a"
+        "id": "cohere/north-mini-code:free",
+        "name": "Cohere: North Mini Code (free)",
+        "context_length": 256000,
+        "description": "North Mini Code is Cohere's first agentic coding model and the debut of its North family. A sparse mixture-of-experts mo"
       },
       {
         "id": "google/gemma-4-26b-a4b-it:free",
@@ -63,16 +63,10 @@
         "description": "The Meta Llama 3.3 multilingual large language model (LLM) is a pretrained and instruction tuned generative model in 70B"
       },
       {
-        "id": "minimax/minimax-m2.5:free",
-        "name": "MiniMax: MiniMax M2.5 (free)",
+        "id": "nex-agi/nex-n2-pro:free",
+        "name": "Nex AGI: Nex-N2-Pro (free)",
         "context_length": 262144,
-        "description": "MiniMax-M2.5 is a SOTA large language model designed for real-world productivity. Trained in a diverse range of complex "
-      },
-      {
-        "id": "moonshotai/kimi-k2.6:free",
-        "name": "MoonshotAI: Kimi K2.6 (free)",
-        "context_length": 262144,
-        "description": "Kimi K2.6 is Moonshot AI's next-generation multimodal model, designed for long-horizon coding, coding-driven UI/UX gener"
+        "description": "Nex-N2-Pro is an agentic mixture-of-experts model from Nex AGI, with 17B active parameters out of 397B total. Built on t"
       },
       {
         "id": "nousresearch/hermes-3-llama-3.1-405b:free",
@@ -97,6 +91,18 @@
         "name": "NVIDIA: Nemotron 3 Super (free)",
         "context_length": 1000000,
         "description": "NVIDIA Nemotron 3 Super is a 120B-parameter open hybrid MoE model, activating just 12B parameters for maximum compute ef"
+      },
+      {
+        "id": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "name": "NVIDIA: Nemotron 3 Ultra (free)",
+        "context_length": 1000000,
+        "description": "NVIDIA Nemotron 3 Ultra is an open frontier-reasoning and orchestration model from NVIDIA, with 55B active parameters ou"
+      },
+      {
+        "id": "nvidia/nemotron-3.5-content-safety:free",
+        "name": "NVIDIA: Nemotron 3.5 Content Safety (free)",
+        "context_length": 128000,
+        "description": "NVIDIA Nemotron 3.5 Content Safety is a compact 4B-parameter multimodal guardrail model from NVIDIA, fine-tuned from Goo"
       },
       {
         "id": "nvidia/nemotron-nano-12b-v2-vl:free",
@@ -144,7 +150,7 @@
         "id": "poolside/laguna-xs.2:free",
         "name": "Poolside: Laguna XS.2 (free)",
         "context_length": 262144,
-        "description": "Laguna XS.2 is the second-generation model in the XS size class from [Poolside](https://poolside.ai), their efficient co"
+        "description": "Laguna XS.2 is the second-generation model in the XS size class from [Poolside](https://poolside.ai/), their efficient c"
       },
       {
         "id": "qwen/qwen3-coder:free",
@@ -157,14 +163,8 @@
         "name": "Qwen: Qwen3 Next 80B A3B Instruct (free)",
         "context_length": 262144,
         "description": "Qwen3-Next-80B-A3B-Instruct is an instruction-tuned chat model in the Qwen3-Next series optimized for fast, stable respo"
-      },
-      {
-        "id": "z-ai/glm-4.5-air:free",
-        "name": "Z.ai: GLM 4.5 Air (free)",
-        "context_length": 131072,
-        "description": "GLM-4.5-Air is the lightweight variant of our latest flagship model family, also purpose-built for agent-centric applica"
       }
     ],
-    "checksSinceLastChange": 29
+    "checksSinceLastChange": 0
   }
 }
