@@ -1,0 +1,189 @@
+{
+  "timestamp": "2026-06-21T02-00-01",
+  "files": [
+    {
+      "name": "configs/tools.md",
+      "size": 8406
+    },
+    {
+      "name": "configs/memory.md",
+      "size": 6126
+    },
+    {
+      "name": "configs/agents.md",
+      "size": 8901
+    },
+    {
+      "name": "configs/user.md",
+      "size": 616
+    },
+    {
+      "name": "configs/soul.md",
+      "size": 1747
+    },
+    {
+      "name": "configs/identity.md",
+      "size": 2391
+    },
+    {
+      "name": "configs/heartbeat.md",
+      "size": 368
+    },
+    {
+      "name": "configs/troubleshooting.md",
+      "size": 5438
+    },
+    {
+      "name": "boot/bootstrap.sh",
+      "size": 17736
+    },
+    {
+      "name": "../../boot/bootstrap.sh",
+      "size": 17736
+    },
+    {
+      "name": "skills/capability-match.skill.md",
+      "size": 1717
+    },
+    {
+      "name": "skills/cli-anything-hub.skill.md",
+      "size": 2880
+    },
+    {
+      "name": "skills/gh-ops.skill.md",
+      "size": 4023
+    },
+    {
+      "name": "skills/github.skill.md",
+      "size": 1113
+    },
+    {
+      "name": "skills/gstack-openclaw-ceo-review.skill.md",
+      "size": 10867
+    },
+    {
+      "name": "skills/gstack-openclaw-investigate.skill.md",
+      "size": 5690
+    },
+    {
+      "name": "skills/gstack-openclaw-office-hours.skill.md",
+      "size": 17296
+    },
+    {
+      "name": "skills/gstack-openclaw-retro.skill.md",
+      "size": 9832
+    },
+    {
+      "name": "skills/mx-stocks-screener.skill.md",
+      "size": 5511
+    },
+    {
+      "name": "skills/video-vision.skill.md",
+      "size": 5443
+    },
+    {
+      "name": "knowledge/openclaw-ecosystem.md",
+      "size": 7921
+    },
+    {
+      "name": "memory/2026-04-14-model-identity.md",
+      "size": 5059
+    },
+    {
+      "name": "memory/2026-04-15-1152.md",
+      "size": 4045
+    },
+    {
+      "name": "memory/2026-05-05.md",
+      "size": 6155
+    },
+    {
+      "name": "memory/2026-05-09.md",
+      "size": 1169
+    },
+    {
+      "name": "memory/2026-05-23.md",
+      "size": 2530
+    },
+    {
+      "name": "memory/2026-05-24.md",
+      "size": 1509
+    },
+    {
+      "name": "memory/2026-05-25.md",
+      "size": 419
+    },
+    {
+      "name": "memory/2026-05-27.md",
+      "size": 376
+    },
+    {
+      "name": "memory/2026-05-28.md",
+      "size": 119
+    },
+    {
+      "name": "memory/2026-05-31.md",
+      "size": 1024
+    },
+    {
+      "name": "memory/2026-06-01.md",
+      "size": 1382
+    },
+    {
+      "name": "memory/2026-06-02.md",
+      "size": 2247
+    },
+    {
+      "name": "memory/2026-06-16-2351.md",
+      "size": 1420
+    },
+    {
+      "name": "memory/2026-06-18.md",
+      "size": 1817
+    },
+    {
+      "name": "memory/2026-06-20.md",
+      "size": 169
+    },
+    {
+      "name": "ops/backup-brain.mjs",
+      "size": 14089
+    },
+    {
+      "name": "ops/check-and-push-brain.mjs",
+      "size": 2734
+    },
+    {
+      "name": "ops/check-free-models.mjs",
+      "size": 3768
+    },
+    {
+      "name": "ops/gateway-check.sh",
+      "size": 1521
+    },
+    {
+      "name": "ops/mirror-sync.sh",
+      "size": 892
+    },
+    {
+      "name": "ops/model-health-check.sh",
+      "size": 6910
+    },
+    {
+      "name": "ops/self-heal-check.mjs",
+      "size": 3890
+    },
+    {
+      "name": "ops/self-learn.mjs",
+      "size": 4297
+    },
+    {
+      "name": "ops/weather-forecast.js",
+      "size": 3336
+    },
+    {
+      "name": "config/openclaw-config-health-check.sh",
+      "size": 6514
+    }
+  ]
+}
